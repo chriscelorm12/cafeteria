@@ -74,6 +74,16 @@ h2 {
 h3 {
   font-size: 1.5rem;
 }
+/* come back later */
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
 
 .logo {
   width: 15%;
@@ -182,6 +192,7 @@ h3 {
   width: 100%;
   height: 40px;
   margin: auto;
+  margin-top: 5px;
   background-color: #ff4757;
   text-align: center;
   color: white;
